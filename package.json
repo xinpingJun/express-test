@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon --exec babel-node index.js"
+    "start": "./node_modules/.bin/nodemon --exec babel-node ./config/read.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^5.0.0-alpha.5",
+    "mongoose": "^5.1.6",
     "morgan": "^1.9.0",
     "nodemon": "^1.17.5"
   }
